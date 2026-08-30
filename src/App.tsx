@@ -1,7 +1,8 @@
 import Counter from "./Counter"
 import Toggle from "./Toggle"
-import UserCard from "./UserCard"
+import UserCard2 from "./UserCard2"
 import ProductCard from "./ProductCard"
+import ProductCard2 from "./ProductCard2"
 
 function App() {
   return (
@@ -11,10 +12,12 @@ function App() {
       <hr />
       <Toggle />
       <hr />
-      <UserCard name="Alice" age={25} isOnline={true} />
-      <UserCard name="Bob" age={30} isOnline={false} />
+      <UserCard2 name="Alice" age={25} isOnline={true} />
+      <UserCard2 name="Bob" age={30} isOnline={false} />
       <hr />
       <ProductCard />
+      <hr />
+      <ProductCard2 />
     </div>
   )
 }
