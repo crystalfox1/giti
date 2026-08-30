@@ -1,5 +1,6 @@
 import Counter from "./Counter";
 import Toggle from "./Toggle";
+import UserCard from "./UserCard";
 
 function App() {
   return (
@@ -8,6 +9,10 @@ function App() {
       <Counter />
       <hr />
       <Toggle />
+      <hr />
+      <h2>User Cards</h2>
+      <UserCard name="Alice" age={25} isOnline={true} />
+      <UserCard name="Bob" age={30} isOnline={false} />
     </div>
   );
 }
