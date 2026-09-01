@@ -1,3 +1,4 @@
+import TodoAdder from "./TodoAdder"
 import ContactForm from "./ContactForm"
 import Counter from "./Counter"
 import Toggle from "./Toggle"
@@ -9,6 +10,8 @@ function App() {
   return (
     <div style={{ textAlign: "center", marginTop: "50px" }}>
       <h1>gitush</h1>
+      <TodoAdder />
+      <hr />
       <ContactForm />
       <hr />
       <Counter />
