@@ -1,11 +1,11 @@
-import ProductList from "./ProductList"
-import StudentList from "./StudentList"
-import TodoAdder from "./TodoAdder"
-import ContactForm from "./ContactForm"
-import Counter from "./Counter"
-import Toggle from "./Toggle"
-import UserCard2 from "./UserCard2"
-import ProductCard2 from "./ProductCard2"
+import ProductList from "./ProductList";
+import StudentList from "./StudentList";
+import TodoAdder from "./TodoAdder";
+import ContactForm from "./ContactForm";
+import Counter from "./Counter";
+import Toggle from "./Toggle";
+import UserCard2 from "./UserCard2";
+import ProductCard2 from "./ProductCard2";
 
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
       <hr />
       <ProductCard2 />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
