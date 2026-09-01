@@ -1,3 +1,4 @@
+import ContactForm from "./ContactForm"
 import Counter from "./Counter"
 import Toggle from "./Toggle"
 import UserCard2 from "./UserCard2"
@@ -8,6 +9,8 @@ function App() {
   return (
     <div style={{ textAlign: "center", marginTop: "50px" }}>
       <h1>gitush</h1>
+      <ContactForm />
+      <hr />
       <Counter />
       <hr />
       <Toggle />
