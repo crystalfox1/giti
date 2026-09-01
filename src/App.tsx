@@ -1,3 +1,4 @@
+import StudentList from "./StudentList"
 import TodoAdder from "./TodoAdder"
 import ContactForm from "./ContactForm"
 import Counter from "./Counter"
@@ -10,6 +11,8 @@ function App() {
   return (
     <div style={{ textAlign: "center", marginTop: "50px" }}>
       <h1>gitush</h1>
+      <StudentList />
+      <hr />
       <TodoAdder />
       <hr />
       <ContactForm />
